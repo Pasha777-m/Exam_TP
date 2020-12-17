@@ -4,10 +4,6 @@ pipeline
         registryCredential = 'pasha2409'
         dockerImage = ''
     }
-	options
-	{
-		timestamps()
-	}
 	agent none
 	stages
 	{
