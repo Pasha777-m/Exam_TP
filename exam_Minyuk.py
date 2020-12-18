@@ -1,7 +1,10 @@
-import random
-import numpy as np
-class MyClass():
-    def Progression(b,q,n):
-        b=q+n
-        return b
- 
+n=5
+def fac(n):
+    factorial = 1
+    while n > 1:
+        factorial *= n
+        n -= 1
+    print("n! =", factorial)
+    return factorial
+
+fac(n)

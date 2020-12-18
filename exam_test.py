@@ -1,13 +1,11 @@
 import unittest as ut
-import random
 import exam_Minyuk as pt
-import numpy as np
 
 class CalcTest(ut.TestCase):
     def setUp(self):
-        self.mk=pt.MyClass()
-    def test_add(self):
-        self.assertEqual(self.mk.Progression(1,2),3)
+        self.mk=pt.fac(n)
+    def test_usage(self):
+        self.assertEqual(self.mk.fac(n),120)
 
 if __name__ == "__main__":
     import xmlrunner
