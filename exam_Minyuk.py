@@ -4,7 +4,7 @@ def fac(n):
     while n > 1:
         factorial *= n
         n -= 1
-    print("n! =", factorial)
+    print("res = n! =", factorial)
     return factorial
 
 fac(n)
